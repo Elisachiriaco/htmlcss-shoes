@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -25,6 +29,7 @@ ul li{
     line-height: 30px;
     font-size: 10px;
     margin: 0 5px;
+    box-shadow: 2px 2px #888888;
 }
 a{
     color: black;
