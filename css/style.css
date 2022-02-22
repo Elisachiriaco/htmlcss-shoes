@@ -6,3 +6,60 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+nav{
+    position: fixed;
+    top: 2%;
+    left: 87%;
+    width: 100%;
+    height: 100px;
+    z-index: 2000;
+}
+ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    margin: 0 5px;
+}
+a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.red{
+    background-color: red;
+    color: yellow;
+}
+.green{
+    background-color: green;
+    color: yellow;
+}
+.yellow{
+    background-color: yellow;
+    color: green;
+}
+section img{
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30%;
+}
